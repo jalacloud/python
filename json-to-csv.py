@@ -2,8 +2,8 @@ import json
 import csv
 
 # Specify the input JSON file and output CSV file paths
-input_json_file = 'C:/Users/laytoja/OneDrive - EY/Documents/Projects/ASS3T/enterprise-attack.json'
-output_csv_file = 'C:/Users/laytoja/OneDrive - EY/Documents/Projects/ASS3T/enterprise-attack-converted.csv'
+input_json_file = '{{ INPUT_FILEPATH }}'
+output_csv_file = '{{ OUTPUT_FILEPATH }}'
 
 # Read the JSON data from the input file
 with open(input_json_file, 'r') as json_file:
